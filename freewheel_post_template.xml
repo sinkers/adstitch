@@ -1,0 +1,36 @@
+<adRequest mode="ON_DEMAND" networkId="$network" profile="$profile" version="1">
+	<capabilities>
+		<supportsSlotTemplate />
+		<expectMultipleCreativeRenditions />
+		<supportsAdUnitInMultipleSlots />
+		<supportsSlotCallback />
+		<supportNullCreative />
+		<supportAdBundle />
+		<supportsFallbackAds />
+		<autoEventTracking />
+		<supportSlotInfo />
+		<requiresRendererManifest />
+		<requiresVideoCallbackUrl />
+	</capabilities>
+	<visitor caller="AS3-5.14.0-r10492-1405120803,BrightcoveAdRules-AS3-BrightcoveAdRule2_5.14.0-r7253-1405120814">
+		<httpHeaders>
+			<httpHeader name="referer" value="http://music.ninemsn.com.au/Blog.aspx?blogentryid=1208349&amp;showcomments=true" />
+			<httpHeader name="x-flash-version" value="14,0,0,145" />
+		</httpHeaders>
+	</visitor>
+	<keyValues>
+		<keyValue key="_fw_ekv" value="1:0004022cGExyCT9dJFz_RviWXqINglRJAua5Ve_ZZTt6Q4-z5HxrGvPe-RTvLjFqhQPV5y-La1K-jgmx906vOjl1ozLtEXp6ohYWfh78_2pijVzOesvaFO_AWXMHRPFmudYbujeQ" />
+	</keyValues>
+	<siteSection customId="$site_section" pageViewRandom="14001.379823149648">
+		<videoPlayer>
+			<videoAsset autoPlay="false" mediaLocation="http://progressive.netshow.ninemsn.com.au/media2/664969388001/2014/08/664969388001_3713093390001_8046930-20140805-095912-VIDEO-FULL.mp4" customId="$videoid" videoPlayRandom="$random" duration="$duration">
+				<adSlots defaultSlotProfile="$profile" compatibleDimensions="1440,900" width="630" height="354">
+					<temporalAdSlot timePosition="0" customId="Pre-roll" width="630" adUnit="preroll" height="354" />
+					<temporalAdSlot timePosition="49.227" customId="Post-roll" width="630" adUnit="postroll" height="354" />
+				</adSlots>
+			</videoAsset>
+			<adSlots />
+		</videoPlayer>
+		<adSlots />
+	</siteSection>
+</adRequest>
