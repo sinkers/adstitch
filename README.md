@@ -1,0 +1,1 @@
+A PoC app that reads a video and associated cue points from Brightcove Video Cloud and then stitches this together with a VMAP ad list from a Freewheel (or other VMAP server) and creates a single video
